@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #d8d8d8;
+  height: 1024px;
+}
+
+header {
+  height: 172px;
+  background-color: #454545;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.white-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 852px;
+  width: 68.5%;
+  background-color: #efefef;
+}
+
+.content-foot {
+  background-color: #222222;
+  height: 82px;
+}
