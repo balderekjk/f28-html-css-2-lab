@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: #d8d8d8;
+  width: 100%;
+  height: 125px;
+}
+
+.logo {
+  margin-left: 25px;
+  height: 75px;
+  width: 75px;
+  background-color: #5b8fdc;
+}
+
+.main-content {
+  background-color: white;
+  width: 100%;
+  min-height: 330px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  width: 90%;
+}
+
+/* height 330 */
+
+.color-container {
+  width: 100%;
+  height: 900px;
+}
+
+.color-container > div {
+  height: 225px;
+}
+
+.blue {
+  background-color: #5b8fdc;
+}
+
+.aqua {
+  background-color: #7be0c3;
+}
+
+.green {
+  background-color: #c2e791;
+}
+
+.yellow {
+  background-color: #f5e752;
+}
